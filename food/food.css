@@ -1,0 +1,349 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family:'Raleway-Medium.ttf' ;
+    src: url(Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family:'Cookie-Regular.ttf' ;
+    src: url(Cookie-Regular.ttf);
+}
+
+@font-face {
+    font-family:'Satisfy-Regular.ttf' ;
+    src: url(Satisfy-Regular.ttf);
+}
+
+#first
+{
+    background: url(res.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#logo
+{
+    font-family:'Cookie-Regular.ttf' ;
+    display: inline-flex;
+    color: white;
+    font-size: 90px;
+    letter-spacing: 3px;
+    margin-left: -900px;    
+}
+#logo h5
+{
+    font-family:'Raleway-Medium.ttf' ;
+    font-size: 15px;
+    margin-top: 60px;
+    margin-left: -130px;
+    opacity: 0;
+    transition: 0.5s ease-in;
+}
+#logo:hover h5
+{
+    margin-top: 75px;
+    opacity: 1;
+}
+nav 
+{
+    position:static;
+    margin-left: 60%;
+    padding-top:5px;
+    padding-bottom: 10px;
+    margin-right: 5%;
+    font-size: 20px;
+    display:flex;
+    align-items: center; 
+    justify-content: space-between;  
+    z-index: 1;
+}
+nav ul li
+{
+    list-style: none ;
+    display: inline-flex;
+    margin-left :100px;
+}
+
+.link
+{
+    text-decoration: none;
+    font-family:'Raleway-Medium.ttf' ;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50px;
+    border-style: hidden;
+    transition: 0.5s ease;
+    opacity: 0.5;
+}
+.link:hover
+{
+    opacity: 1;
+    border: 1px solid white;
+
+}
+
+
+#quote
+{
+    font-family:'Satisfy-Regular.ttf' ;
+    color: white;
+    font-size: 120px;
+    text-align: center;
+    line-height: 145px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    width:620px;
+    height:auto;
+    margin-top: 150px;
+    margin-left:35% ;
+    padding-bottom: 240px;
+    transition: 0.5s ease;
+}
+#quote:hover
+{
+    font-size: 130px;
+    text-shadow: 2px 2px 4px;
+}
+#attract
+{
+    font-family:'Raleway-Medium.ttf' ;
+    color: white;
+    text-align: center;
+    padding-top: -80px;
+    font-size: large;
+    padding-left: 5%;
+    padding-bottom: 40px;
+}
+
+#second
+{
+    display: inline-flex;
+    font-family:'Raleway-Medium.ttf' ;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 300px;
+    background: url(dish.jpg);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    position: static;
+}
+
+#a
+{
+    width: 360px;
+    height: 435px;
+    padding: 30px;
+    line-height: 40px;
+    list-style: none ;
+    margin: 100px;
+    margin-left: 120px; 
+    text-align: justify;
+    border: solid 2px;
+    transition: 0.3s ease-in;
+    /* background-color: aqua; */
+}
+
+
+#b
+{
+    width: 360px;
+    height: 435px;
+    line-height: 40px;
+    padding: 30px;
+    border: solid 2px;
+    text-align:justify ;
+    margin: 100px;
+    /* background-color: aquamarine; */
+    list-style: none ;
+}
+#c
+{
+    width: 360px;
+    height: 435px;
+    line-height: 40px;
+    padding: 30px;
+    margin: 100px;
+    text-align: justify;
+    border: solid 2px;
+    /* background-color: bisque; */
+    list-style: none ;
+}
+
+
+#head
+{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.starter
+{
+    font-family:'Raleway-Medium.ttf' ;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.3s ease;
+}
+.starter:hover
+{
+    font-size:17px ;
+}
+
+h1
+{
+    margin-top: 180px;
+    font-size: 45px;
+    margin-left: 600px;
+    padding-right: 100px;
+    font-family:'Raleway-Medium.ttf' ;
+}
+
+#para
+{
+    margin-top: 40px;
+    font-family:'Raleway-Medium.ttf' ;
+    font-size: 20px;
+    word-spacing: 2px;
+    line-height: 35px;
+    margin-left: 600px;
+    padding-top: 50px;
+    text-align: justify;
+    padding-right: 100px;
+
+}
+#chef
+{
+    margin-top: 8px;
+    width: 340px;
+    float: left;
+    margin-left: 120px;
+    filter: grayscale(50%);
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 1px burlywood;
+    transition: 0.5s ease;
+}
+
+#chef:hover
+{
+    width: 350px;
+    box-shadow: 10px 10px 10px burlywood;
+}
+
+#rest
+{
+    margin-top: 130px;
+    width: 550px;
+    float: right;
+    margin-right: 120px;
+    filter: grayscale(50%);
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 1px burlywood;
+    transition: 0.5s ease;
+}
+
+#rest:hover
+{
+    width: 560px;
+    box-shadow: 10px 10px 10px burlywood;
+}
+#para1
+{
+    margin-top: 140px;
+    font-family:'Raleway-Medium.ttf' ;
+    font-size: 20px;
+    word-spacing: 2px;
+    line-height: 35px;
+    margin-left: 120px;
+    padding-top: 30px;
+    text-align: justify;
+    margin-right: 780px;
+}
+
+#fourth
+{
+    background-color: rgba(0, 0, 0, 0.948);
+    width: 100%;
+    height:25pc;
+    margin-top: 150px;
+    color: white;
+    display:inline-flex;
+    
+}
+#head1
+{
+    font-family:'Raleway-Medium.ttf' ;
+    text-align: center;
+    font-size: 45px;
+    padding-left: 30px;
+    padding-top: 160px;
+    padding-right: 30px;
+}
+
+#x
+{
+    width: 360px;
+    height: 250px;
+    padding: 30px;
+    list-style: none ;
+    font-family:'Raleway-Medium.ttf' ;
+    margin: 60px;
+    margin-left: 50px; 
+    text-align: center;
+}
+#y
+{
+    width: 360px;
+    height: 250px;
+    padding: 30px;
+    list-style: none ;
+    font-family:'Raleway-Medium.ttf' ;
+    margin: 60px;
+    margin-left: 50px; 
+    text-align: center;
+}
+#z
+{
+    width: 360px;
+    height: 250px;
+    padding: 30px;
+    list-style: none ;
+    font-family:'Raleway-Medium.ttf' ;
+    margin: 60px;
+    margin-left: 50px; 
+    text-align: center;
+}
+
+#fiveth
+{
+    background-color: rgba(0, 0, 0, 0.948);
+    width: 100%;
+    height:300;
+}
+#credit
+{
+    display: inline-flex;
+    padding: 25px;
+    font-family:'Raleway-Medium.ttf' ;
+    list-style: none;
+}
+.credit
+{
+    color: white;
+    text-decoration: none;
+    padding-left: 250px;
+}
+.credit:hover
+{
+    color: rgb(43, 226, 171);
+}
